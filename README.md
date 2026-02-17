@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# knightman.github.io
 
-You can use the [editor on GitHub](https://github.com/knightman/knightman.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Personal portfolio site for Andrew Knight — Robotics & Embodied AI Specialist based in Chicago, IL.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## About
 
-### Markdown
+This is a single-page portfolio showcasing innovation lab consulting work.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Current Project Highlights
 
-# Header 1
-## Header 2
-### Header 3
+- **A.R.E.A. 1501 R&D Lab** — Research and development workspace
+- **Embodied AI Market Research** — Industry analysis and trends
+- **LeRobot SO-101 Manipulation** — Low-cost robotic arm experimentation
 
-- Bulleted
-- List
+## Future Development
 
-1. Numbered
-2. List
+Coming Soon.
 
-**Bold** and _Italic_ and `Code` text
+## License
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/knightman/knightman.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+MIT

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Andrew Knight | Robotics & Embodied AI Specialist</title>
+    <meta name="description" content="Portfolio of Andrew Knight, specializing in embodied AI, robotic manipulation, and intelligent systems.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://knightman.github.io/">
+    <meta property="og:title" content="Andrew Knight | Robotics & Embodied AI Specialist">
+    <meta property="og:description" content="Specialist in Embodied AI, robotic manipulation, and intelligent systems.">
+
+    <!-- Twitter -->
+    <!-- <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://knightman.github.io/">
+    <meta name="twitter:title" content="Andrew Knight | Robotics & Embodied AI Specialist">
+    <meta name="twitter:description" content="Specialist in Embodied AI, robotic manipulation, and intelligent systems."> -->
+
+    <!-- Preconnect to external origins for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6.5.1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* CSS Custom Properties */
+        :root {
+            --color-bg: #101214;
+            --color-text: #7A7C80;
+            --color-white: #ffffff;
+            --color-accent: #4A9FD4;
+            --font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+            --transition-fast: 0.2s ease;
+            --transition-normal: 0.3s ease;
+        }
+
+        /* Reset & Base */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-family);
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+        }
+
+        h2, .white {
+            color: var(--color-white);
+        }
+
+        a {
+            color: var(--color-text);
+            text-decoration: none;
+            transition: color var(--transition-fast);
+        }
+
+        a:hover,
+        a:focus {
+            color: var(--color-white);
+        }
+
+        /* Layout */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            min-height: 100vh;
+        }
+
+        /* Profile Image */
+        .profile-img {
+            width: 60%;
+            max-width: 260px;
+            height: auto;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Section 1 - Hero */
+        .section-1 {
+            padding-top: 40vh;
+            text-align: center;
+        }
+
+        .section-1 p {
+            font-size: 1.1rem;
+            padding-bottom: 10px;
+            margin: 0;
+        }
+
+        .section-1 h2 {
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+        }
+
+        .section-1 .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .section-1 .social-links a {
+            font-size: 1.5rem;
+            padding: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Section 2 - Content */
+        .section-2 {
+            padding-top: 10vh;
+            padding-right: 2rem;
+            width: 70%;
+        }
+
+        .section-2 h2 {
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+        }
+
+        .section-2 p {
+            font-size: 1.1rem;
+            padding-bottom: 10px;
+            margin: 0;
+        }
+
+        .section-2 a {
+            display: block;
+            padding: 5px 0;
+            font-size: 1.2rem;
+            width: fit-content;
+        }
+
+        /* Hover Effects */
+        .section-2 a:hover,
+        .section-2 a:focus {
+            transform: translateX(5px);
+            color: var(--color-white);
+        }
+
+        .white:hover {
+            position: relative;
+            padding-left: 10px;
+        }
+
+        /* Responsive */
+        @media (max-width: 780px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            .section-1 {
+                padding: 5rem 1.5rem 2rem;
+            }
+
+            .section-2 {
+                padding: 2rem 1.5rem;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-2">
+        <section class="section-1">
+            <!-- <i class="fa-solid fa-code fa-5x white" aria-hidden="true"></i> -->
+            <img src="./generated_robo_profile2.png" alt="Gen Robo Profile" class="profile-img">
+            <h2>Andrew Knight</h2>
+            <p>Chicago, IL</p>
+            <div class="social-links">
+                <a href="https://twitter.com/" aria-label="Twitter" target="_blank"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/adknight/" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                <!-- <a href="" aria-label="HuggingFace" target="_blank"><i class="fa-brands fa-hugging-face" aria-hidden="true"></i></a> -->
+                <a href="https://github.com/knightman" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <h2>About</h2>
+            <p>Specialist in software development and embodied AI, focusing on robotic manipulation, simulation, and VLA training. I bridge the gap between concept and reality using rapid prototyping.</p>
+            <p>R&D lead at the innovation lab where we explore what's possible and build a vision of the autonomous future.</p>
+
+            <h2>Current Projects</h2>
+            <a href="#" class="project-link" target="_blank">Project Highlight 1</a>
+            <a href="#" class="project-link" target="_blank">Project Highlight 2</a>
+            <a href="#" class="project-link" target="_blank">Project Highlight 3</a>
+
+            <h2>Background</h2>
+            <p>Career in enterprise software, product management, and research. I develop young minds, both as a father at home and as a robot trainer at work. Connect with me to learn more.</p>
+        </section>
+    </div>
+</body>
+</html>

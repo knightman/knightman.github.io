@@ -1,3 +1,14 @@
-theme: jekyll-theme-slate
-title: Welcome to the knightman homebase
-description: Currently under construction
+# Site settings
+title: Andrew Knight | Robotics & Embodied AI Specialist
+description: Specialist in Embodied AI, robotic systems, and general R&D.
+url: "https://knightman.github.io"
+baseurl: ""
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+
+# Include index.html as-is
+include:
+  - index.html
